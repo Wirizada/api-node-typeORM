@@ -18,7 +18,7 @@ Clone este repositório e instale as dependências:
 
 ```bash
 git clone https://github.com/Wirizada/api-node-typeORM
-cd nome-do-repositorio
+cd api-node-typeORM
 npm install
 # ou
 yarn install
