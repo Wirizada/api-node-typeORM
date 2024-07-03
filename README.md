@@ -14,9 +14,6 @@ Esta API serve como um exemplo de como configurar uma aplicação Node.js utiliz
 
 ## Instalação
 
-Licença
-Este projeto está licenciado sob a MIT License.
-
 Clone este repositório e instale as dependências:
 
 ```bash
@@ -27,4 +24,6 @@ npm install
 yarn install
 
 Sinta-se à vontade para modificar conforme necessário para o seu projeto específico.
-
+```
+Licença
+Este projeto está licenciado sob a MIT License.
