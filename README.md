@@ -17,7 +17,7 @@ Esta API serve como um exemplo de como configurar uma aplicação Node.js utiliz
 Clone este repositório e instale as dependências:
 
 ```bash
-git clone https://github.com/usuario/nome-do-repositorio.git
+git clone https://github.com/Wirizada/api-node-typeORM
 cd nome-do-repositorio
 npm install
 # ou
