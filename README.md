@@ -25,6 +25,5 @@ yarn install
 
 Sinta-se à vontade para modificar conforme necessário para o seu projeto específico.
 ```
-</br>
-Licença
-Este projeto está licenciado sob a MIT License.
+
+
