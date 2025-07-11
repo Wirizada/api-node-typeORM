@@ -1,29 +1,55 @@
-# API com Node.js, Express, TypeORM, Jest e TypeScript
+# API com Node.js, Express e TypeORM
 
-Este repositório contém uma API desenvolvida com Node.js, Express, TypeORM, Jest e TypeScript.
+<p align="left">
+  <img src="https://img.shields.io/badge/status-CONCLUÍDO-brightgreen" alt="Status do Projeto">
+  <img src="https://img.shields.io/github/license/Wirizada/api-node-typeORM" alt="Licença">
+  </p>
 
-## Introdução
+> API RESTful desenvolvida como projeto de estudo para aplicar conceitos de TypeScript, TypeORM e testes automatizados com Jest em um ambiente Node.js.
 
-Esta API serve como um exemplo de como configurar uma aplicação Node.js utilizando Express, TypeORM, Jest e TypeScript.
+<br>
 
-## Pré-requisitos
+## ✨ Features
 
-- [Node.js](https://nodejs.org/) v14 ou superior
-- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
-- Banco de Dados (SQLite) 
+- [x] CRUD completo
+- [x] Validação de dados de entrada.
+- [x] Tratamento de erros centralizado.
 
-## Instalação
+---
 
-Clone este repositório e instale as dependências:
+## 🛠️ Tecnologias Utilizadas
+
+* **Node.js**
+* **TypeScript**
+* **Express**
+* **TypeORM**
+* **SQLite**
+* **Jest**
+
+---
+
+## 🚀 Como Rodar o Projeto
+
+### Pré-requisitos
+* **Git, Node.js, NPM/Yarn**
+
+### Rodando o Projeto
 
 ```bash
-git clone https://github.com/Wirizada/api-node-typeORM
+# 1. Clone o repositório e acesse a pasta
+git clone [https://github.com/Wirizada/api-node-typeORM.git](https://github.com/Wirizada/api-node-typeORM.git)
 cd api-node-typeORM
+
+# 2. Instale as dependências
 npm install
-# ou
-yarn install
 
-Sinta-se à vontade para modificar conforme necessário para o seu projeto específico.
+# 3. Rode as migrations do TypeORM
+npm run typeorm:migration:run 
+# (CONFIRME O COMANDO NO SEU package.json)
+
+# 4. Execute a aplicação
+npm run dev 
+# (CONFIRME O COMANDO NO SEU package.json)
+
+# O servidor será iniciado na porta 3333 (ou outra que você configurou)
 ```
-
-
