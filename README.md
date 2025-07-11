@@ -43,13 +43,7 @@ cd api-node-typeORM
 # 2. Instale as dependências
 npm install
 
-# 3. Rode as migrations do TypeORM
-npm run typeorm:migration:run 
-# (CONFIRME O COMANDO NO SEU package.json)
-
-# 4. Execute a aplicação
+# 3. Execute a aplicação
 npm run dev 
-# (CONFIRME O COMANDO NO SEU package.json)
 
-# O servidor será iniciado na porta 3333 (ou outra que você configurou)
 ```
